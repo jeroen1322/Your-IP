@@ -23,6 +23,9 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
                 font-size: 50px;
                 text-align: center;
             }
+            strong{
+                color: red;
+            }
         </style>
     </head>
     <body>
