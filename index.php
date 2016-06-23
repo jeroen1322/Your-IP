@@ -21,11 +21,12 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
             }
             .ip{
                 font-size: 50px;
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        <div class="ip"><p>Your IP address is: <strong><?php echo $ip?></strong></p></div>
+        <div class="ip"><p>Your IP address is:<br><strong><?php echo $ip?></strong></p></div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>
